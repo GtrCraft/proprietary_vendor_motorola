@@ -19,10 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/msm8916-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/motorola/msm8916-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/msm8916-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/motorola/msm8916-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/msm8916-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/msm8916-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8916-common/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
@@ -54,11 +50,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/motorola/msm8916-common/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/motorola/msm8916-common/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
-    vendor/motorola/msm8916-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/motorola/msm8916-common/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/msm8916-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8916-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/motorola/msm8916-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/msm8916-common/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/msm8916-common/proprietary/lib/hw/sensorhub.msm8916.so:system/lib/hw/sensorhub.msm8916.so \
     vendor/motorola/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
@@ -136,8 +130,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+<<<<<<< HEAD
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+=======
+>>>>>>> parent of eba7cc9... msm8916-common: Add IMS blobs
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
@@ -165,13 +162,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
@@ -195,8 +194,5 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     TimeService \
     qcrilmsgtunnel \
-    ims \
-    imssettings \
-    imscmlibrary \
     qcnvitems \
     qcrilhook
